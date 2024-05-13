@@ -1,0 +1,109 @@
+/* Estilos generales */
+
+*{
+    box-sizing: border-box;
+}
+
+h1, h4 {
+    margin: 0px;
+}
+
+/* Estilos header */
+
+header {
+    border-bottom: 1px solid gray;
+    margin-bottom: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+/* Estilos del container */
+
+.container {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.content_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+/* Estilos menú */
+
+nav {
+    padding: 1em;
+    width: 10%;
+}
+
+nav div {
+    margin-bottom: 20px;
+}
+
+/* Estilos main */
+
+main {
+    border: 1px solid gray;
+    border-radius: 1em;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    width: 54%;
+}
+
+main img {
+    border-radius: 1em;
+    height: 70%;
+    width: 80%;
+}
+
+.content_wrapper article:nth-of-type(1) {
+    height: 400px;
+  }
+
+/* Estilos Articulo */ 
+
+article {
+    border: 1px solid gray;
+    border-radius: 1em;
+    height: 300px;
+    padding: 1em;
+    text-align: center;
+    width: 32%;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+article img {
+    border-radius: 1em;    
+    height: 60%;
+    width: 100%;
+}
+
+ /* Estilos footer */
+
+footer {
+    align-items: center;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding: 2em;
+}
+
+address {
+    margin-left: 1em;
+}
+
+footer img {
+    width: 50px;
+}
